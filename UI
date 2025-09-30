@@ -1624,4 +1624,4 @@ local CurrentlySavingOrLoading = game.Players.LocalPlayer:WaitForChild("Currentl
 -- 返回主界面提示
 wait(2)
 SendNotification("提示", "按左Ctrl键可以隐藏/显示主界面", 5)
-end)
+
