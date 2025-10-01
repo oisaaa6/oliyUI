@@ -631,7 +631,7 @@ shuaxinlb(true)
 repeat task.wait() until game:IsLoaded()
 
 -- 完成提示
-SendNotification("已为您启用木材大亨功能", "作者：搬运工", 10)
+SendNotification("已为您启用木材大亨功能", "OvO", 10)
 
 -- 创建功能UI
 local Tab1 = win:Tab("玩家功能", "16060333448")
@@ -646,9 +646,6 @@ local Sectionchuanson = Tab:section("传送东西")
 local Sectionzhengli = Tab:section("整理")
 local Section5 = Tab:section("木头")
 local SectionKJ = Tab:section("蓝图")
-
-local Tab2 = win:Tab("环境", "4626047596")
-local Sectionhuanjin = Tab2:section("环境")
 
 -- 玩家功能
 Section3:Textbox("设置速度", "TextBoxfalg", "输入数字", function(s)
