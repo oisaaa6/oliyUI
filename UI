@@ -352,9 +352,3 @@ end)
 SGV_Tab:Button("刷新角色", function()
     LocalPlayer:LoadCharacter()
 end)
-
-StarterGui:SetCore("SendNotification", {
-    Title = "BP脚本",
-    Text = "所有功能加载完成！",
-    Duration = 5
-})
