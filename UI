@@ -337,18 +337,3 @@ SGV_Tab:Toggle("无限耐力", "开关", false, function(state)
         })
     end
 end)
-
--- 添加其他游戏功能
-SGV_Tab:Button("重置角色", function()
-    local character = LocalPlayer.Character
-    if character then
-        local humanoid = character:FindFirstChild("Humanoid")
-        if humanoid then
-            humanoid.Health = 0
-        end
-    end
-end)
-
-SGV_Tab:Button("刷新角色", function()
-    LocalPlayer:LoadCharacter()
-end)
